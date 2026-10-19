@@ -87,6 +87,7 @@ i {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 12px;
 }
 
 .bg-home {
@@ -139,6 +140,39 @@ i {
   margin: 14px 0;
 }
 
+.button-contact:hover {
+  animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
+  .hero h1 {
+    font-size: 34px;
+    padding: 0 18px;
+    width: 100%;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 12px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
