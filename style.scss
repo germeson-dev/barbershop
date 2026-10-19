@@ -9,6 +9,10 @@
 @import 'partials/header';
 @import 'partials/layout';
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Sora', sans-serif;
     width: 100%;

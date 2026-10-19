@@ -282,6 +282,45 @@ i {
     flex-direction: column;
   }
 }
+.maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px 0;
+  background-color: #fff;
+  padding: 8px;
+}
+.maps h2 {
+  padding: 20px 0 52px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 54px 0;
+  gap: 24px;
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer p {
+    font-size: 12px;
+    margin-top: 46px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
